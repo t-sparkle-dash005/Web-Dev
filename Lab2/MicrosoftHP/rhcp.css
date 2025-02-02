@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", serif;
+}
+
+.container {
+    padding: 0 40px;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header-holder {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo i {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.logo span {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.left-side {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    font-weight: 500;
+}
+
+.logo-holder ul {
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+    list-style: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.right-side {
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    align-items: center;
+    cursor: pointer;
+}
+
+.people-icon {
+    font-size: 35px;
+}
+
+/*PAY*/
+.pay {
+    height: 6vh;
+    width: 100%;
+    background-color: #0062d2;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+}
+
+.pay p {
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.pay i {
+    align-items: center;
+    font-size: 15px;
+}
+
+.pay :hover {
+    text-decoration: underline;
+}
+
+/*MAIN*/
+.main-content {
+    background-image: url("images/copilotpc.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-holder {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-left-side {
+    padding-top: 20vh;
+    align-items: center;
+}
+
+.main-right-side {
+    padding-top: 20vh;
+    text-align: center;
+}
+
+.copilot-img img {
+    height: 20vh;
+}
+
+.copilot-info {
+    display: block;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.main-desc {
+    display: block;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-desc h1 {
+    padding: 20px;
+    font-size: 40px;
+}
+
+.main-desc h4 {
+    padding: 15px;
+    font-weight: 450;
+}
+
+.button {
+    padding: 20px;
+}
+
+.button button {
+    padding: 10px 20px;
+    background-color: #0062d2;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button button:hover {
+    background-color: #005a99;
+}
+
+/*LIST*/
+.list-holder ul {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+}
+
+.list-holder li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/*ICONS*/
+.icons-holder {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px;
+}
+
+.icons-holder i {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.icons-holder p {
+    font-size: 15px;
+    color: #0062d2;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* PRODUCTS */
+.products-holder {
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.products-div {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+}
+
+.product-img img {
+    width: 100%;
+    height: 30vh;
+}
+
+.overlay {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.overlay h1 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.overlay p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.overlay .btn:hover {
+    background-color: #005a99;
+}

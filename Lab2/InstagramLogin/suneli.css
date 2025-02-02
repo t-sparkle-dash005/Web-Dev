@@ -1,0 +1,156 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-left: 200px;
+}
+
+.body {
+    display: flex;
+    background-color: #fff;
+    max-width: 935px;
+    width: 100%;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+}
+.left .profile-page {
+    max-width: 100%;
+    height: auto;
+}
+
+.right {
+    flex: 1;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login {
+    border: 1px solid #a8a8a8;
+    padding: 40px 30px;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.login .logo {
+    margin-bottom: 20px;
+    width: 200px;
+    max-width: 100%;
+}
+
+.fb-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0095f6;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    padding: 8px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.fb-login img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.or-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.line{
+    background-color: #c3c0c0;
+    height: 1px;
+    position: relative;
+    top: .45em;
+}
+
+.or{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: #727272FF;
+}
+
+.login form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    background: #fafafa;
+}
+
+.login form button {
+    width: 100%;
+    padding: 8px;
+    background-color: #3897f0;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.forgot {
+    font-size: 12px;
+    color: #00376b;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.signup {
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fff;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.signup a {
+    color: #3897f0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.download {
+    text-align: center;
+    font-size: 14px;
+    color: #8e8e8e;
+}
+
+.stores {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.store img {
+    width: 120px;
+    height: auto;
+}
