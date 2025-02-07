@@ -33,15 +33,21 @@ body {
     padding: 40px 30px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: right;
+    width:50%;
+    margin-top: 20px;
+    margin-bottom: -20px;
 }
 
 .login {
     border: 1px solid #a8a8a8;
     padding: 40px 30px;
-    text-align: center;
+    text-align: right;
     background-color: #fff;
     margin-bottom: 10px;
+    width: 50%;
+    margin-left: 70px;
+
 }
 
 .login .logo {
@@ -63,6 +69,7 @@ body {
     font-weight: bold;
     cursor: pointer;
     margin-bottom: 15px;
+
 }
 
 .fb-login img {
@@ -120,6 +127,7 @@ body {
     text-decoration: none;
     margin-top: 10px;
     display: inline-block;
+    padding-right: 60px;
 }
 
 .signup {
@@ -150,7 +158,10 @@ body {
     gap: 10px;
 }
 
-.store img {
-    width: 120px;
+.store {
+    width: 150px;
     height: auto;
+}
+.store:hover {
+    cursor: pointer;
 }
