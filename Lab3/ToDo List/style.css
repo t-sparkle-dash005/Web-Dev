@@ -1,0 +1,138 @@
+:root {
+    background-color: #cffaf5;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Segoe UI", Verdana, sans-serif;
+    font-size: 16pt;
+    color: #00bf7f;
+}
+
+body {
+    padding: 10px;
+    background-color: #cffaf5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size:3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #00bf7f;
+}
+
+.toDoList {
+    width:700px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    caret-color: #00bf7f;
+}
+
+#input {
+    box-sizing: border-box;
+    padding:12px 20px;
+    width:100%;
+    background: none;
+    border:1px solid #a1a1a1;
+    border-radius: 1000px;
+    font:inherit;
+}
+
+#input:focus {
+    outline: none;
+}
+
+form {
+    position:relative;
+}
+
+#addBtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #30ed6c;
+    height: 54px;
+    width: 20%;
+    border: none;
+    border-radius: 1000px;
+    font: inherit;
+    font-weight: 600;
+    color: #d8fffd;
+    cursor: pointer;
+}
+
+#addBtn:hover {
+    background-color: #00db63;
+}
+
+
+#addBtn:hover {
+    background-color: #00db63;
+}
+
+.tasks {
+    margin-bottom: 10px;
+    padding:0 16px;
+    background-color: #b8e8e3;
+    border-radius: 20px;
+    display:flex;
+    align-items: center;
+}
+
+.tasks .tasksTxt {
+    padding: 15px;
+    padding-right: 0;
+    padding-bottom: 18px;
+    flex-grow: 1;
+}
+
+.deleteBtn {
+    padding: 3px;
+    background: none;
+    border:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.deleteBtn:hover svg {
+  fill: #ff6464;
+}
+
+.editCB {
+    border: 2px solid #00bf7f;
+    border-radius: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked ~ .editCB {
+    background-color: #01d58e;
+}
+
+input[type="checkbox"]:checked ~ .editCB svg {
+    fill: #cffaf5;
+}
+
+input[type="checkbox"]:checked ~ .tasksTxt {
+    text-decoration: line-through;
+    color:gray;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
