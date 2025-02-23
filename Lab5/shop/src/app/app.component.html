@@ -1,0 +1,12 @@
+<div class="header">
+  <p>Dalida's online shop</p>
+</div>
+<div class="category">
+  <p>Choose a category: </p>
+  <div class="list">
+    <p *ngFor="let category of categories" (click)="selectCategory(category)">
+      {{ category.name }}
+    </p>
+  </div>
+</div>
+<app-product-list *ngIf="selectedCategory" [products]="selectedCategory?.products"></app-product-list>

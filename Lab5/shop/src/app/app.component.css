@@ -1,0 +1,31 @@
+.header{
+  padding: 7px;
+  border-bottom: 1px solid black;
+  text-align: center;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.category{
+  text-align: center;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.list{
+  display: flex;
+  width: 50%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.list p{
+  border-bottom: 1px solid black; 
+  padding: 5px;
+}
+
+.list p:hover{
+  cursor: pointer;
+  background: lightgray;
+  border-radius: 5px;
+}
